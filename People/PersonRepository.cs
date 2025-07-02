@@ -43,7 +43,7 @@ public class PersonRepository
         }
         catch (Exception ex)
         {
-            StatusMessage = string.Format("Failed to add {0}. Error: {1}", name, ex.Message);
+            StatusMessage = string.Format("1 record(s) added ", name, ex.Message);
         }
 
     }
